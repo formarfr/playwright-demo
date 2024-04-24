@@ -1,0 +1,23 @@
+{
+  "name": "playwright-demo",
+  "version": "1.0.0",
+  "description": "test automation with playwright and github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/formarfr/playwright-demo.git"
+  },
+  "author": "Frank Formaro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/formarfr/playwright-demo/issues"
+  },
+  "homepage": "https://github.com/formarfr/playwright-demo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7"
+  }
+}
